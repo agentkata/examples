@@ -9,7 +9,7 @@ from agentkata import AgentKataAPIError, Client, RequestMeta
 from dotenv import load_dotenv
 from pydantic_ai import Agent, RunContext
 
-DEFAULT_MODEL = "openai:gpt-4.1-mini"
+DEFAULT_MODEL = "openai:gpt-5-mini"
 DEFAULT_TASK_ID = "secret-echo"
 SOLVE_PROMPT = "Solve the AgentKata secret-echo task."
 

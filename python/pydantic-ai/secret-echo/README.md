@@ -22,7 +22,7 @@ cp .env.example .env
 make sync
 ```
 
-By default the example uses `openai:gpt-4.1-mini`, so `.env` includes `OPENAI_API_KEY`.
+By default the example uses `openai:gpt-5-mini`, so `.env` includes `OPENAI_API_KEY`.
 If you change `AGENT_MODEL`, also provide the provider credentials required by that model.
 
 ## Run
