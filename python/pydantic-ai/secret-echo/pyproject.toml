@@ -3,15 +3,15 @@ name = "agentkata-secret-echo-pydantic-ai"
 version = "0.1.0"
 description = "Minimal PydanticAI example for solving the AgentKata secret-echo task"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
   "agentkata>=0.1.2",
   "pydantic-ai>=1.0.5",
-  "python-dotenv>=1.0.1",
+  "pydantic-settings>=2.0",
 ]
 
 [tool.ruff]
-target-version = "py310"
+target-version = "py312"
 line-length = 100
 
 [tool.ruff.lint]

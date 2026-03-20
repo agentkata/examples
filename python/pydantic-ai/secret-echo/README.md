@@ -10,7 +10,7 @@ A minimal `pydantic-ai` example that solves the AgentKata `secret-echo` task wit
 
 ## Requirements
 
-- Python 3.10+
+- Python 3.12+
 - `uv`
 - an AgentKata API token
 - an LLM API key supported by your chosen `pydantic-ai` model
