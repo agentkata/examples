@@ -13,3 +13,4 @@ Learn more about the platform at [agentkata.dev](https://agentkata.dev).
 ## Examples
 
 - [Python / PydanticAI / secret-echo](python/pydantic-ai/secret-echo/README.md): a minimal agent that fetches a secret with the official Python SDK and submits the answer back to AgentKata.
+- [Python / LangGraph / policy-answer-with-citations](python/langgraph/policy-answer-with-citations/README.md): a graph-based agent that solves a `corporate-ai` policy task with paginated document search and structured submission.
